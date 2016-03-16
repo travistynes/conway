@@ -32,7 +32,7 @@ window.onload = function(e) {
     gol.grid.draw();
     
     // Start game loop.
-    window.setTimeout(gol.start, 1000);
+    gol.start();
 };
 
 /*
